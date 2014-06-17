@@ -1,0 +1,30 @@
+Two types of testing: 
+	Manual- Testing functionality by hand
+	Automated- Testing using a coded test suite
+
+Tests are NOT a way that to show that your code is correct. 
+
+Testing methods:
+	Black Box- testing without knowing what the code looks like
+	White Box- testing internal structures or inner workings of a program instead of its functionality. Testing actual code
+
+Funcitonal Testing: Testing features and that it is meeting goals of application
+
+Non-Functional: tests target performance, resource utilization, usability, compatibility
+	-Load testing
+	-Security
+	-Usability
+
+Unit Tests
+	Tests individual methods in a class independant of dependancies
+
+Integration Tests
+	Tests whether bits of code(methods, classes, modules, componenets) can work together
+
+Funtcional and Acceptance Tests
+	Check that a particular feature works
+
+
+Public vs Private methods
+
+Private method cannot be called from outside the object. ie A method within the class/object can use the method, but any object outside of this method cannot access it.
