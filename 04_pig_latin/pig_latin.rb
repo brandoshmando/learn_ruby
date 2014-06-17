@@ -1,4 +1,4 @@
-EXCEPTION = %w[ a e i o u ]
+EXCEPTION = %w[ a e i o u qu ]
 
 def translate(phrase)
 	words = phrase.split(' ')
@@ -6,7 +6,8 @@ def translate(phrase)
 	words.each do |word|
 		if EXCEPTION.include?(word[0])
 			pig_words << "#{word}ay"
-
+		elsif EXCEPTION.include?(word[0..1])
+				pig_words << "#{word[2..-1] + word[0..1]}ay"
 		elsif EXCEPTION.include?(word[1])
 			pig_words << "#{word[1..-1] + word[0]}ay"
 		elsif EXCEPTION.include?(word[2])
