@@ -28,9 +28,9 @@ describe "#translate" do
     s.should == "eatay iepay"
   end
 
-  # it "translates a word beginning with three consonants" do
-  #   translate("three").should == "eethray"
-  # end
+  it "translates a word beginning with three consonants" do
+    translate("three").should == "eethray"
+  end
 
   # it "counts 'sch' as a single phoneme" do
   #   s = translate("school")
