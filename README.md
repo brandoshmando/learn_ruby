@@ -1,0 +1,3 @@
+Testing/Ruby 
+==========
+A set of problems designed to HAMMER ruby concepts into your brain using rspec tests...
